@@ -1,6 +1,6 @@
 # Default ignored files
 /shelf/
-/workspace.xml
+/.idea/workspace.xml
 
 out
 
@@ -12,3 +12,5 @@ out
 *.iml
 
 *.iprg
+
+test
