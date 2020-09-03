@@ -106,8 +106,9 @@ public class Homework2 {
 
          */
 
-// While - exercitiul 1 facut cu if :)
+// While - exercitiul 1 si 2
 
+/*
         int n = 8;
         int incercari = 0;
 
@@ -130,11 +131,109 @@ public class Homework2 {
         }
 
         System.out.println("Felicitari, ati ghicit numarul in" + " "+(incercari+1)+ " incercari");
+
+ */
+
+        // While exercitiul 3
+        /*
+
+        int numarul1, numarul2, suma;
+        numarul2=1;
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Introuceti primul numar");
+        numarul1 = scanner.nextInt();
+
+        while (numarul1!=0 && numarul2!=0){
+            System.out.println("Introuceti urmatorul numar");
+            numarul2 = scanner.nextInt();
+            System.out.println("Suma numerelor introduse este:");
+            suma=numarul1 + numarul2;
+            numarul1= suma;
+            System.out.println(suma);
+            System.out.println();
+
         }
 
+         */
 
+        //While exercitiul 4
 
+        /*
+        int numarul1, numarul2, numarul3;
 
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Introuceti primul numar");
+        numarul1 = scanner.nextInt();
+        System.out.println("Introuceti al doilea numar");
+        numarul2 = scanner.nextInt();
+        System.out.println("Introuceti al treilea numar");
+        numarul3 = scanner.nextInt();
+
+        if ((numarul1+numarul2>numarul3)&&(numarul1+numarul3>numarul2)&&(numarul2+numarul3>numarul1)) {
+            System.out.println("Numerele introduse pot fi laturile unui triunghi");
+                    }
+        else {
+            System.out.println("Numerele introduse nu pot forma un triunghi");
+        }
+
+*/
+
+        /*
+        //While exercitiul 7
+
+        int pin = 1234;
+        int numarintrodus;
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Introuceti codul pin");
+        numarintrodus = scanner.nextInt();
+        if (pin !=numarintrodus) {
+            System.out.println("Introuceti codul pin din nou");
+            numarintrodus = scanner.nextInt();
+            if (pin !=numarintrodus) {
+                System.out.println("Introuceti codul pin din nou");
+                numarintrodus = scanner.nextInt();
+                if (pin !=numarintrodus) {
+                    System.out.println("Card blocat in bancomat");
+                }
+            }
+        }
+        if (pin == numarintrodus) {
+            System.out.println("Buna ziua! Ce operatiune vreti sa efectuati?");
+        }
+*/
+
+        //Switch exercitiul 1
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Introduti ziua saptamanii pentru a primi horoscopul");
+        int ziua = scanner.nextInt();
+        switch (ziua){
+            case 0:
+                System.out.println("Astazi vei primi bani. Baga toate economiile la Loto");
+                break;
+            case 1:
+                System.out.println("Astazi iti vei intalni jumatatea. Ia un buchet de flori cu tine!");
+                break;
+            case 2:
+                System.out.println("Nu fa investiit majore astazi. Pastreaza banii pentru weekend!");
+                break;
+            case 3:
+                System.out.println("Venus s-a intalnit cu Saturn si este in umbra lui Jupiter. Nu iesi din cas aastazi!");
+                break;
+            case 5:
+                System.out.println("Hai ca vine weekend-ul!");
+                break;
+            case 4:
+                System.out.println("Astazi este o zi buna pentru mers la teatru sau la...Eden");
+                break;
+            case 6:
+                System.out.println("Iesi din casa si distreaza-te cu prietenii!");
+                break;
+
+        }
+
+    }
     }
 
 
