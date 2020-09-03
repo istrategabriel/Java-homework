@@ -208,6 +208,7 @@ public class Homework2 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Introduti ziua saptamanii pentru a primi horoscopul");
         int ziua = scanner.nextInt();
+
         switch (ziua){
             case 0:
                 System.out.println("Astazi vei primi bani. Baga toate economiile la Loto");
