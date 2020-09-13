@@ -51,6 +51,7 @@ public class Homework3 {
 
      */
 
+
     public static boolean isCatPlaying( boolean summer, int temperature) {
         boolean playing = false;
         if (temperature>=25 && temperature<=35){

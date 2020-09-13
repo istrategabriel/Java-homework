@@ -6,6 +6,7 @@ import java.util.Arrays;
 public class Homework1 {
 
 
+
     public static int [] arrayRotation(int [] initialArray){
         for (int i=0; i<=initialArray.length/2-1; i++){
             int temp = initialArray[i];

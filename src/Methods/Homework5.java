@@ -94,6 +94,7 @@ public class Homework5 {
             }
             i++;
 
+
         }
         return sum;
     }

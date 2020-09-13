@@ -9,6 +9,7 @@ public class Homework2 {
     //Switch exercitiul 1
 
   public static void messageForDay(int ziua) {
+
 /*
       Scanner scanner = new Scanner(System.in);
       System.out.println("Introduti ziua saptamanii pentru a primi horoscopul");
