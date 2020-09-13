@@ -51,7 +51,7 @@ public class Homework3 {
 
      */
 
-    static boolean isCatPlaying( boolean summer, int temperature) {
+    public static boolean isCatPlaying( boolean summer, int temperature) {
         boolean playing = false;
         if (temperature>=25 && temperature<=35){
             playing=true;
@@ -65,7 +65,7 @@ public class Homework3 {
     }
 
     public static void main(String[] args) {
-        System.out.println( isCatPlaying(false, 3));
+        System.out.println( isCatPlaying(false, 30));
 
     }
 

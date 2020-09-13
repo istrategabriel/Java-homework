@@ -6,6 +6,40 @@ import java.util.Scanner;
 
 public class Homework2 {
 
+    //Switch exercitiul 1
+
+  public static void messageForDay(int ziua) {
+/*
+      Scanner scanner = new Scanner(System.in);
+      System.out.println("Introduti ziua saptamanii pentru a primi horoscopul");
+      ziua = scanner.nextInt();
+*/
+      switch (ziua) {
+          case 0:
+              System.out.println("Astazi vei primi bani. Baga toate economiile la Loto");
+              break;
+          case 1:
+              System.out.println("Astazi iti vei intalni jumatatea. Ia un buchet de flori cu tine!");
+              break;
+          case 2:
+              System.out.println("Nu fa investiit majore astazi. Pastreaza banii pentru weekend!");
+              break;
+          case 3:
+              System.out.println("Venus s-a intalnit cu Saturn si este in umbra lui Jupiter. Nu iesi din cas aastazi!");
+              break;
+          case 5:
+              System.out.println("Hai ca vine weekend-ul!");
+              break;
+          case 4:
+              System.out.println("Astazi este o zi buna pentru mers la teatru sau la...Eden");
+              break;
+          case 6:
+              System.out.println("Iesi din casa si distreaza-te cu prietenii!");
+              break;
+
+      }
+
+  }
 
     public static void main(String[] args) {
         /*
@@ -203,36 +237,9 @@ public class Homework2 {
         }
 */
 
-        //Switch exercitiul 1
 
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Introduti ziua saptamanii pentru a primi horoscopul");
-        int ziua = scanner.nextInt();
 
-        switch (ziua){
-            case 0:
-                System.out.println("Astazi vei primi bani. Baga toate economiile la Loto");
-                break;
-            case 1:
-                System.out.println("Astazi iti vei intalni jumatatea. Ia un buchet de flori cu tine!");
-                break;
-            case 2:
-                System.out.println("Nu fa investiit majore astazi. Pastreaza banii pentru weekend!");
-                break;
-            case 3:
-                System.out.println("Venus s-a intalnit cu Saturn si este in umbra lui Jupiter. Nu iesi din cas aastazi!");
-                break;
-            case 5:
-                System.out.println("Hai ca vine weekend-ul!");
-                break;
-            case 4:
-                System.out.println("Astazi este o zi buna pentru mers la teatru sau la...Eden");
-                break;
-            case 6:
-                System.out.println("Iesi din casa si distreaza-te cu prietenii!");
-                break;
-
-        }
+       messageForDay(6);
 
     }
     }
